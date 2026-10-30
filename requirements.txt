@@ -1,0 +1,4 @@
+# Optional GUI dependencies for probe_windows.py.
+# windows/info/scaling use only the standard library.
+pywinauto>=0.6.9; sys_platform == "win32"
+Pillow>=10

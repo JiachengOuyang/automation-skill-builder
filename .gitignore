@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Local configuration and data
+config.toml
+*.log
+_*_work/
+_test/
+_install_test/
+screenshots/
+failures/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build / packaging artifacts
+*.skill
+*.zip
